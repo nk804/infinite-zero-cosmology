@@ -1,1 +1,235 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{geometry}
+\geometry{margin=1in}
 
+\title{Regular Black Hole Cores with White-Hole Dynamics: \\
+Observational Signatures and Testable Predictions}
+\author{Nataliya Khomyak}
+\date{October 2025}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+We present a concrete metric ansatz for black holes containing finite, white-hole-like cores that behave as standard black holes at large distances but exhibit regular, bounce-like dynamics at small radii. This framework resolves the central singularity through a time-dependent mass function that interpolates between asymptotic Schwarzschild geometry and a regular core. We derive the associated stress-energy structure, provide order-of-magnitude estimates for energy release mechanisms, and identify specific observational signatures including gravitational wave echoes, black hole shadow deviations, and anomalous jet energetics. Applications to Sgr A* demonstrate energetic plausibility with minimal mass requirements. The framework is testable through current and near-future gravitational wave detectors, Event Horizon Telescope observations, and high-energy astrophysics.
+\end{abstract}
+
+\section{Introduction}
+
+General relativity predicts singularities at black hole centers, where curvature diverges and classical physics breaks down. Various quantum gravity approaches suggest these singularities may be resolved through bounce mechanisms, yielding regular cores with white-hole-like outgoing flux. This paper provides a phenomenological metric framework for such configurations, derives their stress-energy requirements, and identifies observable consequences.
+
+\section{Metric Ansatz}
+
+\subsection{Regular Core Geometry}
+
+We work in spherically symmetric coordinates with the standard static form:
+\begin{equation}
+ds^2 = -f(t,r)\,dt^2 + \frac{dr^2}{f(t,r)} + r^2 d\Omega^2
+\end{equation}
+where $d\Omega^2 = d\theta^2+\sin^2\theta\,d\phi^2$.
+
+We set:
+\begin{equation}
+f(t,r) = 1 - \frac{2\,m(t,r)}{r}
+\end{equation}
+
+where $m(t,r)$ is a mass function that interpolates between the asymptotic ADM mass $M$ (for large $r$) and a regular core at small $r$.
+
+\subsection{Hayward-Type Regular Core}
+
+A convenient regular choice is:
+\begin{equation}
+m(t,r)=\frac{M\,r^3}{r^3 + \ell(t)^3}
+\end{equation}
+
+with $\ell(t)$ a time-dependent length scale encoding the core's internal state.
+
+\textbf{Properties:}
+\begin{itemize}
+\item For $\ell \to 0$, this reduces toward Schwarzschild $m\to M$
+\item For finite $\ell$, the geometry is regular at $r=0$: $m\sim M r^3/\ell^3 \Rightarrow f(0)=1$
+\end{itemize}
+
+\subsection{Bounce Dynamics}
+
+To model bounce or white-hole behavior, we make $\ell(t)$ dynamical, allowing rapid changes from $\ell_{\text{in}}$ to $\ell_{\text{out}}$ (or phase flips in internal degrees of freedom). This models the core's internal pressure/quantum state changing so the near-core effective stress-energy changes sign in the outward direction.
+
+A simple phenomenological time dependence:
+\begin{equation}
+\ell(t) = \ell_0\left[1 + \varepsilon\,\tanh\!\left(\frac{t-t_0}{\tau}\right)\right]
+\end{equation}
+
+where $\varepsilon$ controls transition magnitude, $t_0$ is the bounce time, and $\tau$ is the transition timescale (can be Planckian or macroscopic).
+
+When $\ell(t)$ rapidly changes, gradients in $m(t,r)$ produce outgoing metric perturbations that appear from afar as emission events (white-hole-like).
+
+\section{Stress-Energy Structure}
+
+\subsection{Einstein Equations}
+
+Einstein equations:
+\begin{equation}
+G_{\mu\nu} = 8\pi G \, T_{\mu\nu}
+\end{equation}
+
+For the spherical ansatz, the nonzero components of $G_{\mu\nu}$ give the effective $T^\mu_{\ \nu}$ for the matter/quantum core. For the static slice of $m(r)$, the energy density and radial pressure are:
+\begin{align}
+\rho_{\text{eff}}(r,t) &= \frac{1}{4\pi r^2}\frac{\partial m}{\partial r} \\
+p_r(r,t) &= -\frac{1}{4\pi r^2}\frac{\partial m}{\partial r} + \frac{1}{8\pi r}\frac{\partial^2 m}{\partial r^2}
+\end{align}
+
+\textbf{Key points:}
+\begin{itemize}
+\item Near the core, $m\propto r^3/\ell^3$ so $\rho_{\text{eff}}$ is finite (no curvature singularity)
+\item Time variation $\partial_t m$ sources nonzero $T_{t r}$ (energy flux) and radiative metric components --- these are the outward flows interpreted as emission
+\end{itemize}
+
+\subsection{Energy Conditions}
+
+To produce outward white-hole flux while keeping the core regular typically requires violations of classical energy conditions (NEC/WEC) at the Planck/quantum level. This is expected: any singularity resolution or bounce generally needs exotic/quantum stress-energy.
+
+\section{Energy Release Estimates}
+
+\subsection{Order-of-Magnitude Analysis}
+
+We treat the core region (radius $\sim \ell$) as having an effective vacuum energy change $\Delta\Lambda$ during the bounce. Energy released:
+\begin{equation}
+E_{\text{release}} \sim \Delta\Lambda \cdot \frac{4\pi}{3}\ell^3
+\end{equation}
+
+If this energy is emitted over time $\tau$, the mean power:
+\begin{equation}
+P \sim \frac{E_{\text{release}}}{\tau} \sim \frac{\Delta\Lambda\,\ell^3}{\tau}
+\end{equation}
+
+Translating $\Delta\Lambda$ to mass-energy scale:
+\begin{equation}
+\Delta\rho \sim \frac{c^4}{8\pi G}\Delta\Lambda
+\end{equation}
+
+\subsection{Application to Sgr A*}
+
+For Sgr A* with $M \approx 4\times10^6 M_\odot$:
+\begin{itemize}
+\item Schwarzschild radius: $r_s \approx 1.18\times10^{10}$ m
+\item Core radius: $\ell = 10\,r_s \approx 1.18\times10^{11}$ m
+\item Jet power: $P = 10^{36}$ erg/s $= 10^{29}$ J/s
+\item Active timescale: $T = 10^{6}$ years $\approx 3.154\times10^{13}$ s
+\item Total energy: $E = P\,T \approx 3.154\times10^{42}$ J
+\end{itemize}
+
+Required local vacuum constant change:
+\begin{equation}
+\Delta\Lambda \approx 9.5\times10^{-35}\,\text{m}^{-2}
+\end{equation}
+
+This is $\sim 8.6\times10^{17}$ times the cosmic $\Lambda$, but corresponds to a local energy density of only:
+\begin{equation}
+\Delta\rho \approx 4.6\times10^{8}\,\text{J/m}^3
+\end{equation}
+
+with mass-density equivalent $\rho_{\text{mass}} \approx 5.1\times10^{-9}$ kg/m$^3$ (extremely low compared to ordinary matter).
+
+Total mass equivalent: $E/c^2 \approx 1.8\times10^{-5} M_\odot$ (tiny fraction of solar mass).
+
+\textbf{Interpretation:} For a low-power, long-duration Sgr A* episode, the energetic requirements are surprisingly modest, suggesting such configurations are not excluded by energy considerations alone.
+
+\section{Observational Signatures}
+
+If Sagittarius A* or other supermassive black holes harbor regular cores that occasionally emit white-hole-like flux, the following signatures are predicted:
+
+\subsection{Gravitational Wave Echoes}
+
+\textbf{Prediction:} Time-asymmetric echoes in gravitational waves --- late-time echoes after mergers if the horizon interior reflects/filters modes.
+
+\textbf{Test:} Search LIGO/Virgo/KAGRA residuals for post-ringdown signals.
+
+\subsection{Black Hole Shadow Deviations}
+
+\textbf{Prediction:} Precise deviations from Kerr shadow shape due to modified near-horizon geometry.
+
+\textbf{Test:} Event Horizon Telescope next-generation baselines could detect percent-level changes.
+
+\subsection{High-Energy Particle Spectra}
+
+\textbf{Prediction:} Unusual composition or timing of flares if interior reconfigurations inject energy directly.
+
+\textbf{Test:} Compare with accretion-powered jet models; look for deviations in spectral properties.
+
+\subsection{Fast Variability at Horizon Scales}
+
+\textbf{Prediction:} Interior transitions can produce short, high-frequency signals (X-ray/IR) inconsistent with standard disk-instability timescales.
+
+\textbf{Test:} High-cadence monitoring of Sgr A* and other AGN.
+
+\subsection{Jet Energetics Mismatch}
+
+\textbf{Prediction:} If some jet power comes from core transitions rather than accretion, measured accretion luminosity and jet power relations could deviate.
+
+\textbf{Test:} Statistical analysis across AGN population.
+
+\section{Research Program}
+
+\subsection{Theoretical Development}
+
+\begin{enumerate}
+\item Write down metric and compute curvature invariants for $m(t,r)=M r^3/(r^3+\ell(t)^3)$
+\item Verify that Ricci scalar $R$, Kretschmann scalar $R_{\mu\nu\rho\sigma}R^{\mu\nu\rho\sigma}$, and other curvature invariants remain finite
+\item Compute $T_{\mu\nu}$ from Einstein equations for time-dependent mass function
+\item Identify flux component $T_{tr}$ corresponding to outgoing energy
+\end{enumerate}
+
+\subsection{Perturbation Analysis}
+
+\begin{enumerate}
+\item Linear perturbation of background to compute predicted gravitational-wave strain
+\item Calculate lensing and ISW imprints
+\item Parameter scan ($\ell$, $\Delta\Lambda$, $\tau$) to find regimes producing observed AGN jet powers
+\end{enumerate}
+
+\subsection{Numerical Simulations}
+
+GR numerical run (1+1 spherical code with matter model or effective stress term) to evolve $m(t,r)$ and record outgoing metric radiation.
+
+\subsection{Observational Campaign}
+
+\begin{enumerate}
+\item Search existing LIGO/Virgo data for echoes
+\item Coordinate with EHT for shadow deviation measurements
+\item High-cadence X-ray monitoring of Sgr A*
+\item Statistical analysis of jet/accretion correlations across AGN samples
+\end{enumerate}
+
+\section{Matching to Interior Solutions}
+
+One mathematically clean approach: patch a regular interior metric (de Sitter-like core) to an external Schwarzschild/Kerr geometry via a thin shell (Israel junction conditions). For spherical case:
+
+\begin{itemize}
+\item \textbf{Interior:} de Sitter with $\Lambda_{\text{in}}$ (positive vacuum)
+\item \textbf{Exterior:} asymptotic Schwarzschild $M$ (or Kerr if rotating)
+\item \textbf{Shell radius} $R_s(t)$ evolves; shell stress $S_{ab}$ satisfies junction conditions and sources flux
+\end{itemize}
+
+If $R_s(t)$ oscillates or runs outward slowly, observers outside see either increased horizon area (absorbing) or outward flux (white-hole-like).
+
+\section{Caveats and Open Questions}
+
+\begin{itemize}
+\item This is a phenomenological metric: it encodes the ``white-hole inside black-hole'' intuition in GR language
+\item Physical realization almost certainly requires quantum effects/exotic stress-energy (violations of classical energy conditions near core)
+\item Mechanism for collimation (converting isotropic core emission into jets) requires further development
+\item Stability analysis needed: can such cores exist without immediate blowup or rapid dissipation?
+\end{itemize}
+
+\section{Conclusion}
+
+We have presented a concrete, testable framework for black holes with regular white-hole-like cores. The metric produces definite observational fingerprints (echoes, shadow deviations, jet/flare anomalies) that are testable with current and near-future instruments. Application to Sgr A* demonstrates energetic plausibility. The framework bridges quantum gravity intuitions about singularity resolution with classical observables, providing a path toward empirical validation or falsification.
+
+\bibliographystyle{plain}
+
+\end{document}

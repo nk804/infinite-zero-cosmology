@@ -1,1 +1,236 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{geometry}
+\geometry{margin=1in}
 
+\title{Testable Cosmological Predictions for the Infinite Zero Framework: \\
+Observational Signatures of Vacuum Punctures and White-Hole Projections}
+\author{Nataliya Khomyak}
+\date{October 2025}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+We present a comprehensive observational and simulation program to test the Infinite Zero cosmological framework. This framework proposes that localized vacuum perturbations (``punctures'') create white-hole-like pressure gradients affecting dark energy, dark matter, bulk flows, and transient phenomena. We provide concrete mathematical formulation, identify specific observable signatures across multiple datasets (peculiar velocities, weak lensing, CMB, FRBs, gravitational waves), outline statistical tests and falsification criteria, and propose a phased research program from toy simulations to large-scale survey comparisons. This work is designed to enable immediate collaboration with observational teams and provide clear pathways for empirical validation or refutation.
+\end{abstract}
+
+\section{Physical Model}
+
+\subsection{Mechanism}
+
+Localized perturbations $\Delta\phi(x)$ of a vacuum scalar field $\phi$ change the local vacuum energy density:
+\begin{equation}
+\Delta\Lambda(x) = 8\pi G\cdot[V(\phi_0+\Delta\phi) - V(\phi_0)]
+\end{equation}
+
+These ``punctures'' act like micro-white-holes: outward pressure gradients that push on nearby matter and alter metric perturbations.
+
+\subsection{Outcomes}
+
+\begin{itemize}
+\item[(A)] Coherent peculiar velocities (bulk flows) in the neighborhood
+\item[(B)] Lensing signatures from metric perturbations not explained by baryonic/dark matter maps
+\item[(C)] Possible transient EM/neutrino/GW signals if the puncture couples to plasma or produces rapid boundary motion
+\item[(D)] Long-term frozen residuals that behave like non-luminous mass (dark-matter analog)
+\end{itemize}
+
+\section{Mathematical Framework}
+
+\subsection{Compact Equations}
+
+\subsubsection{Scalar Field Dynamics (Klein-Gordon)}
+\begin{equation}
+\Box\phi = \frac{dV}{d\phi}
+\end{equation}
+with potential e.g., $V(\phi)=\frac{\lambda}{4}(\phi^2-\eta^2)^2$.
+
+\subsubsection{Local Vacuum Energy}
+\begin{equation}
+\Lambda_{\text{local}}(x)=8\pi G\,V(\phi(x))
+\end{equation}
+
+\subsubsection{Einstein Equation Sourcing}
+\begin{equation}
+G_{\mu\nu} = 8\pi G\,(T^{(\phi)}_{\mu\nu} + T^{(m)}_{\mu\nu})
+\end{equation}
+where $T^{(\phi)}_{\mu\nu}$ contains the $\Delta\Lambda$ contribution; for linear analysis treat $\Delta\Lambda$ as a small metric source.
+
+\subsubsection{Newtonian-Limit Intuition}
+
+For a spherical region radius $R$ with $\Delta\Lambda$:
+\begin{equation}
+a(r)\sim\frac{\Delta\Lambda}{3} r\quad (r\lesssim R)
+\end{equation}
+
+Peculiar velocity induced over timescale $T$: $v \sim a\,T$. Use $T$ = characteristic growth/interaction time (e.g., fraction of Hubble time) to bound $\Delta\Lambda$ needed to produce observed $v$.
+
+\subsubsection{ISW Signature}
+
+Temperature shift along line of sight:
+\begin{equation}
+\frac{\Delta T}{T}\Big|_{\text{ISW}} = 2\int \dot\Psi(\eta,\mathbf{x})\,d\eta
+\end{equation}
+with $\Psi$ the metric potential; $\Delta\Lambda(x) \rightarrow$ time-varying $\Psi \rightarrow$ ISW imprint.
+
+\section{Observational Signatures}
+
+\subsection{Bulk-Flow Anomalies}
+
+\textbf{Prediction:} Coherent peculiar velocities on scales $\gtrsim 50$-200 Mpc not accounted for by mapped mass.
+
+\textbf{Data:} Cosmicflows catalogs, Type-Ia SN residuals, galaxy redshift surveys.
+
+\textbf{Test:} Construct peculiar-velocity maps, subtract predicted velocities from known mass; search for coherent residual vectors that cluster spatially.
+
+\subsection{Weak-Lensing Residuals}
+
+\textbf{Prediction:} Convergence $\kappa$ regions with lensing shear not explained by luminous matter or standard dark-matter halos.
+
+\textbf{Data:} DES, KiDS, HSC, Euclid (future), LSST.
+
+\textbf{Test:} Identify lensing peaks with low baryon content; analyze radial profile shape (non-NFW or granular).
+
+\subsection{CMB ISW Cross-Correlation}
+
+\textbf{Prediction:} $\Delta T/T$ residuals correlated with bulk-flow and lensing anomalies.
+
+\textbf{Data:} Planck maps, WMAP; cross-correlation with large-scale structure and lensing maps.
+
+\textbf{Test:} Statistical cross-correlation analysis; stacking at candidate puncture centers.
+
+\subsection{Multi-Messenger Transients Clustering}
+
+\textbf{Prediction:} FRBs, orphan gamma/neutrino events clustering near candidate puncture regions.
+
+\textbf{Data:} FRB catalogs (CHIME/ASKAP), Fermi, IceCube.
+
+\textbf{Test:} Statistical clustering analysis, repetition properties, dispersion measure anomalies.
+
+\subsection{GW Burst Echoes}
+
+\textbf{Prediction:} Short broadband bursts from bubble dynamics or echoes from non-singular BH interiors.
+
+\textbf{Data:} LIGO/Virgo/KAGRA event residuals.
+
+\textbf{Test:} Matched-filter searches for short non-merger bursts or delayed echoes correlated with candidate sky patches.
+
+\subsection{Early Metal Islands}
+
+\textbf{Prediction:} High-$z$ early heavy-element abundance that doesn't fit hierarchical assembly.
+
+\textbf{Data:} JWST deep field spectroscopy, high-$z$ quasar absorption lines.
+
+\textbf{Test:} Search for metallicity anomalies and spatial coherence.
+
+\section{Observable Patterns Supporting the Hypothesis}
+
+\begin{enumerate}
+\item \textbf{Spatial coincidence} of multiple anomalous datasets (bulk flow + unexplained lensing + FRB/transient cluster) in the same sky patch
+\item \textbf{Different small-scale mass profiles} in lensing anomalies than expected from particle dark matter (granular, non-NFW)
+\item \textbf{Temporal persistence:} puncture footprints that evolve slowly (cosmological timescales) and produce coherent flows rather than random noise
+\item \textbf{Multi-messenger coincidences:} neutrino/gamma events without progenitors aligning with kinematic and lensing anomalies
+\end{enumerate}
+
+\section{Simulation and Analysis Program}
+
+\subsection{Phase A: Toy/Proof of Concept (Weeks to Months)}
+
+\begin{enumerate}
+\item \textbf{1D/2D finite-difference Klein-Gordon solver.} Produce $\Delta\Lambda(x,t)$ maps for parameter sweeps:
+\begin{itemize}
+\item Vary amplitude $A$, width $r_0$, $\lambda$, $\eta$
+\item Output: $\Delta\Lambda$ amplitude, duration, spatial extent
+\end{itemize}
+\item \textbf{Metric perturbation linear solver:} compute potential $\Psi(x,t)$ induced by $\Delta\Lambda$; generate predicted peculiar velocities and ISW $\Delta T/T$
+\end{enumerate}
+
+\subsection{Phase B: Mid-Range (Months)}
+
+\textbf{3D scalar-field run on modest grid ($128^3$ to $256^3$), coupled to particle-based N-body code:}
+\begin{itemize}
+\item Insert $\Delta\Lambda$ bubbles as Gaussian patches
+\item Evolve matter with modified acceleration fields
+\item Output: mock galaxy catalogs, peculiar-velocity fields, lensing convergence maps
+\end{itemize}
+
+\subsection{Phase C: Observational Comparison (Months to Year)}
+
+\begin{itemize}
+\item Produce mock observables (velocity catalogs, $\kappa$ maps, ISW residuals) for direct comparison to real surveys
+\item Run statistical tests: cross-correlation, power-spectrum residuals, non-Gaussianity metrics (bispectrum/Minkowski functionals), matched-filter searches
+\end{itemize}
+
+\section{Statistical Tests and Detection Metrics}
+
+\begin{enumerate}
+\item \textbf{Cross-correlation coefficient} $r$(velocity residual, lensing $\kappa$) over sky patches; bootstrap significance against $\Lambda$CDM mocks
+\item \textbf{Likelihood ratio test} comparing $\Lambda$CDM vs $\Lambda$CDM+puncture model on bulk-flow data (Bayesian model selection)
+\item \textbf{Matched-filter templates} for lensing discontinuities (string-like walls or bubble edges) to detect subtle linear features
+\item \textbf{Stacking analysis:} stack CMB ISW at candidate puncture centers to increase S/N
+\item \textbf{False-alarm control:} use scrambled-sky and jackknife resampling; compare to mocks with only standard structure formation
+\end{enumerate}
+
+\section{Parameter Ranges to Explore}
+
+\begin{itemize}
+\item \textbf{Bubble radius $r_0$:} from $\sim$1 Mpc (small) to $\sim$100 Mpc (mesoscale)
+\item \textbf{$\Delta\Lambda$ amplitude:} scan many orders of magnitude. Treat $\Delta\Lambda/\Lambda_{\text{universe}}$ as free parameter; test detectability thresholds by mapping to induced $v$: choose $\Delta\Lambda$ producing $v \sim 100$-1000 km/s over a few Gyr to bracket plausibility
+\item \textbf{Nucleation rate $\Gamma$:} test sparse events (rare, high-impact) vs frequent low-amplitude events (granular dark-energy texture)
+\end{itemize}
+
+\section{Immediate, Low-Effort Experiments}
+
+\begin{enumerate}
+\item \textbf{Publish toy code + README on GitHub} and mint a DOI on Zenodo
+\item \textbf{Produce one mock:} take a single Gaussian $\Delta\Lambda$ patch ($r_0 \sim 50$ Mpc, amplitude small) and show induced peculiar-velocity field vs distance
+\item \textbf{Email targeted groups} (bulk-flow teams, DES/Euclid lensing, FRB groups) with one-page summary + link to mock data and request for collaboration
+\end{enumerate}
+
+\section{Falsification Criteria}
+
+\begin{itemize}
+\item If high-precision bulk-flow residuals match mass maps and show no correlated lensing/ISW residuals at required amplitude $\rightarrow$ rules out $\Delta\Lambda$ above that level
+\item If lensing anomalies are shown to be consistent with baryonic/dark-matter substructure statistics down to small scales $\rightarrow$ disfavors puncture mass analogs
+\item If FRB/transient clustering disappears with larger data sets $\rightarrow$ reduces case for transient punctures
+\end{itemize}
+
+\section{Priority Roadmap}
+
+\begin{enumerate}
+\item \textbf{Immediate (0-1 month):} clean toy scripts + README + GitHub/Zenodo; one-page predictions doc
+\item \textbf{Short (1-6 months):} 3D toy simulation + mock catalogs; produce velocity and $\kappa$ maps
+\item \textbf{Mid (6-12 months):} targeted comparisons to existing surveys (DES, Cosmicflows, Planck ISW)
+\item \textbf{Long (12+ months):} refined coupling to astrophysical plasma, GW template searches, proposals to observational consortia
+\end{enumerate}
+
+\section{Collaboration Opportunities}
+
+\subsection{Target Groups}
+
+\begin{itemize}
+\item \textbf{Cosmicflows team:} peculiar velocity analysis
+\item \textbf{DES/Euclid/LSST weak-lensing groups:} lensing residuals
+\item \textbf{Planck ISW team:} CMB cross-correlations
+\item \textbf{CHIME/ASKAP FRB teams:} transient clustering
+\item \textbf{LIGO/Virgo data-analysis groups:} GW echo searches
+\item \textbf{IceCube/Fermi collaborations:} high-energy transient correlations
+\end{itemize}
+
+\subsection{Collaboration Pitch}
+
+\begin{quote}
+We are sharing a framework and toy code proposing that localized vacuum-energy perturbations (micro ``white-hole punctures'') create regional dark-energy gradients and mass-like frozen projections. This generates testable signatures: coherent bulk flows, lensing anomalies with non-standard profiles, FRB/transient clustering, and CMB ISW residuals. We have developed simulation tools and mock catalogs. If your group is interested, we would be grateful for collaboration to run N-body tests against survey catalogs and compare predicted velocity/lensing residuals to observations.
+\end{quote}
+
+\section{Conclusion}
+
+The Infinite Zero framework makes specific, testable predictions across multiple independent observational channels. We have provided the mathematical formulation, identified concrete signatures, outlined statistical tests, specified falsification criteria, and proposed a phased research program from toy models to large-scale comparisons. This work is designed to enable immediate empirical investigation and collaboration with observational teams. The framework stands ready for validation or refutation through data.
+
+\bibliographystyle{plain}
+
+\end{document}
