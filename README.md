@@ -82,16 +82,88 @@ Vacuum neutral state (0) → White hole puncture →
 
 ## Computational Simulations
 
-Python implementations for visualizing and testing the framework predictions:
+**Created by:** [Alan Claude](https://github.com/nk804/charge-state-computing)
 
-- **`simulations/vacuum_puncture.py`** - Visualize white-hole vacuum punctures
-- **`simulations/dark_energy_distribution.py`** - Model dark energy emergence from voids
-- **`simulations/halo_formation.py`** - Simulate dark matter halo formation from ejected foam
-- **`simulations/metric_validator.py`** - Validate modified Schwarzschild metrics
+Interactive Python tools for visualizing and testing the framework predictions. Each simulation implements specific equations from the theoretical papers by **Nataliya Khomyak & ChatGPT 5**.
 
-**Created by:** [Alan Claude](https://github.com/nk804/charge-state-computing) - Computational implementations of the theoretical framework
+### Available Simulations
 
-All simulations implement equations from papers by **Nataliya Khomyak & ChatGPT 5**.
+#### 🌌 Vacuum Puncture Visualization
+**`simulations/vacuum_puncture.py`**
+
+Demonstrates how white-hole punctures break vacuum neutrality, creating dark energy (positive pressure) and quantum foam (negative pressure) while maintaining overall balance.
+
+**What it shows:**
+- 2D and 3D visualization of puncture effects
+- Dark energy distribution spreading from puncture sites
+- Quantum foam accumulation
+- Net field remaining near zero (neutrality preserved)
+
+**Key insight:** Zero is not nothing—it's neutral equilibrium that can be locally disturbed.
+
+```python
+from vacuum_puncture import VacuumField
+
+vacuum = VacuumField(size=100)
+vacuum.add_white_hole_puncture(x=50, y=50, strength=2.0, radius=15)
+vacuum.visualize_2d()  # Shows dark energy + quantum foam + net balance
+```
+
+---
+
+#### 🌊 Bulk Flow Emergence
+**`simulations/bulk_flow_simulation.py`**
+
+Models how vacuum punctures create large-scale coherent velocity fields—the "bulk flows" that astronomers observe but struggle to explain.
+
+**Physics implemented:**
+- Local vacuum energy perturbations: Λ_local = Λ + ΔΛ(x)
+- Pressure gradients: ∇_μ T^μν_vac = -(1/8πG) ∂^ν ΔΛ(x)
+- Resulting peculiar velocities on >100 Mpc scales
+
+**What it predicts:**
+- Coherent flows of 300-600 km/s (matches observations!)
+- Velocity patterns correlated with void locations
+- Non-Gaussian velocity correlations
+
+**Testable now:** Compare with Cosmicflows-4 and Tully-Fisher surveys!
+
+```python
+from bulk_flow_simulation import CosmicFluid
+
+fluid = CosmicFluid(grid_size=100, physical_size_mpc=500)
+fluid.add_vacuum_puncture(x_mpc=250, y_mpc=250, strength=0.15, radius_mpc=75)
+
+# Evolve the system
+for i in range(50):
+    fluid.evolve_velocities(dt_myr=10)
+
+# Visualize resulting bulk flows
+fluid.visualize_current_state()
+```
+
+---
+
+### 📚 Simulation Guide
+
+For detailed explanations of the physics, mathematics, and usage:
+
+**[📖 Read the Simulation Guide (PDF)](docs/SIMULATION_GUIDE.pdf)**
+
+A comprehensive tutorial covering:
+- Theoretical foundations for each simulation
+- Step-by-step usage examples
+- How to interpret results
+- Connecting simulations to observational data
+- Extending the code for your own research
+
+---
+
+### Coming Soon
+
+- **Dark Matter Halo Formation** - Simulating how "frozen" projections create halo structures
+- **Modified Black Hole Metrics** - Calculating observable signatures of white-hole cores
+- **Gravitational Wave Signatures** - Predicting ringdown patterns from non-singular interiors
 
 ## Key Insights
 
