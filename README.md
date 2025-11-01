@@ -84,6 +84,20 @@ Provides specific, falsifiable observational tests for the Infinite Zero framewo
 
 [📄 Read Paper](papers/vacuum_puncture.md)
 
+### 5. Crease Defects: Surface Dynamics at ΔΛ Boundaries
+
+**The surface complement.** While vacuum punctures describe volume defects, crease defects describe the two-dimensional interface boundaries where ΔΛ transitions occur. These are geometric "folds" in spacetime with finite surface tension (σ_Λ ~ 10¹¹ J/m²) that deflect geodesics and produce observable signatures.
+
+**Core contributions:**
+- Surface stress from Israel junction conditions: σ_Λ = (c⁴/8πG)(ΔΛ/κ)
+- Geodesic deflection: α ≈ (1/2)ΔΛℓ² producing nano-arcsecond lensing
+- Gravitational wave bursts from crease collapse (100-1000 Hz, LIGO band)
+- Connection to Fast Radio Bursts and magnetar flares
+
+**Significance:** Completes the geometric framework with both volume (puncture) and surface (crease) physics, enabling full description of vacuum energy structures.
+
+[📄 Read Paper](papers/crease_defects.md)
+
 ## Joint Works of Nataliya Khomyak and Sebastian Pentagram
 
 A series of technical papers developing the mathematical framework for localized vacuum energy dynamics. These works bridge the intuitive Infinite Zero concept with rigorous field theory, demonstrating that vacuum "punctures" can power real astrophysical phenomena.
