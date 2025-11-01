@@ -70,6 +70,20 @@ Provides specific, falsifiable observational tests for the Infinite Zero framewo
 
 [📄 Read Paper](papers/testable_predictions.pdf)
 
+### 4. Vacuum Puncture: A Localized ΔΛ Defect Model
+
+**The theoretical cornerstone.** Introduces the vacuum puncture concept — localized regions where the cosmological constant increases above background (ΔΛ > 0), creating finite, nonsingular cores that store and release energy. This paper unifies the Infinite Zero framework by providing the geometric foundation that all subsequent work references.
+
+**Core contributions:**
+- Regularized metric: m(r) = Mr³/(r³ + ℓ³) eliminating singularities
+- Energy scaling: E = (c⁴/6G)ΔΛℓ³ 
+- Dynamic cycles: vacuum "capacitors" that store and periodically release energy
+- Observable signatures: gravitational wave echoes, symmetric flares, polarization patterns
+
+**Significance:** Replaces infinities with finite vacuum elasticity, providing a singularity-free alternative to traditional black hole physics while maintaining compatibility with General Relativity.
+
+[📄 Read Paper](papers/vacuum_puncture.md)
+
 ## Joint Works of Nataliya Khomyak and Sebastian Pentagram
 
 A series of technical papers developing the mathematical framework for localized vacuum energy dynamics. These works bridge the intuitive Infinite Zero concept with rigorous field theory, demonstrating that vacuum "punctures" can power real astrophysical phenomena.
