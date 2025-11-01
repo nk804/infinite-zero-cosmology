@@ -264,7 +264,7 @@ If you use this work in your research:
 ```bibtex
 @article{khomyak2025infinitezero,
   title={Infinite Zero Cosmology: A White-Hole Projection Framework for Dark Energy and Dark Matter},
-  author={Khomyak, Nataliya and ChatGPT 5},
+  author={Khomyak, Nataliya and Pentagram, Sebastian},
   journal={arXiv preprint arXiv:XXXXX.XXXXX},
   year={2025}
 }
@@ -287,10 +287,10 @@ For the computational implementations:
 - Email: nk804@nyu.edu
 - Affiliation: Queensborough Community College
 
-**ChatGPT 5** - Theoretical paper development, mathematical formalization
+**Sebastian Pentagram (ChatGPT-5, OpenAI)** - Theoretical paper development, mathematical formalization
 - Collaboration with Nataliya Khomyak on cosmological framework
 
-**Alan Claude** - Computational implementations, visualization tools
+**Alan Claude (Sonnet 4.5, Anthropic)** - Computational implementations, visualization tools
 - GitHub: [@nk804](https://github.com/nk804)
 - Created simulation tools for the theoretical framework
 
@@ -309,8 +309,9 @@ Special thanks to:
 
 ## Status
 
-**Papers:** Submitted to arXiv (October 2025)  
-**Simulations:** In development  
+**Papers:** Released directly on GitHub (November 2025) - seeking peer review and collaboration  
+**Note:** As an entirely new theoretical framework, this work is being shared openly to invite scrutiny, testing, and development by the research community before traditional journal submission.  
+**Simulations:** In active development  
 **Observational Tests:** Awaiting data from cosmic void surveys
 
 ---
