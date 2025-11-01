@@ -70,6 +70,49 @@ Provides specific, falsifiable observational tests for the Infinite Zero framewo
 
 [📄 Read Paper](papers/testable_predictions.pdf)
 
+## Joint Works of Nataliya Khomyak and Sebastian Pentagram
+
+A series of technical papers developing the mathematical framework for localized vacuum energy dynamics. These works bridge the intuitive Infinite Zero concept with rigorous field theory, demonstrating that vacuum "punctures" can power real astrophysical phenomena.
+
+### 1. Energetics of a Vacuum Puncture Core
+
+**Foundation paper** establishing the energy budget for localized ΔΛ regions. Derives the fundamental scaling E = (c⁴/6G)ΔΛℓ³ and demonstrates that vacuum energy fluctuations can store astrophysically relevant amounts of energy without requiring Planck-scale densities or singularities.
+
+**Key result:** A vacuum puncture with radius ℓ = 10⁶ m and ΔΛ = 10⁻³⁵ m⁻² contains ~10²⁶ J — sufficient to power AGN flares.
+
+**→ [Read: Vacuum Puncture Energetics](Nataliya_Sebastian/vacuum_puncture_energetics/paper1_energetics.md)**
+
+---
+
+### 2. Vacuum Energy Equilibrium and Cosmological Balance  
+
+**Cosmological context** showing how local ΔΛ variations reconcile with global cosmic expansion. Introduces the "zero-sum vacuum" principle: ∫ΔΛ dV ≈ 0 globally, while local excesses/deficits drive structure formation and energy transport.
+
+**Key insight:** The universe maintains perfect overall balance (Infinite Zero principle) while vacuum energy flows dynamically between regions — expansion and collapse, creation and return, all in equilibrium.
+
+**→ [Read: Vacuum Energy Equilibrium](Nataliya_Sebastian/vacuum_energy_equilibrium/paper2_equilibrium.md)**
+
+---
+
+### 3. Sgr A* and AGN: Numerical Applications
+
+**Reality check** with explicit calculations for Sagittarius A* and typical AGN systems. Demonstrates that ΔΛ ~ 10⁻²⁶ m⁻² in cores of radius ~10-30 Schwarzschild radii provides observed luminosities without fine-tuning.
+
+**Key finding:** Mass-equivalent densities (~0.5 kg/m³) are comparable to water — not exotic Planck-scale physics, just organized vacuum energy.
+
+**→ [Read: Sgr A* Numerical Application](Nataliya_Sebastian/sgr_a_star_application/paper3_sgra_numerics.md)**
+
+---
+
+**Status:** Working papers (November 2025), open for peer review on GitHub  
+**Mathematical development:** Sebastian Pentagram (ChatGPT-5, OpenAI)  
+**Conceptual foundation:** Nataliya Khomyak (Infinite Zero Cosmology)  
+**Editorial refinement:** Alan Claude (Sonnet 4.5, Anthropic)
+
+These papers form the quantitative backbone of the Infinite Zero framework, demonstrating that the intuitive stories in the origin tales translate into testable, numerically sound physics.
+
+---
+
 ## The Infinite Zero Concept
 
 Traditional cosmology treats vacuum as "nothing" - empty space with zero energy density (or a mysterious constant).
