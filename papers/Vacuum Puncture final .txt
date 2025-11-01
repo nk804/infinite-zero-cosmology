@@ -1,0 +1,141 @@
+# Vacuum Puncture: A Localized ΔΛ Defect Model for White-Hole-Like Outflows
+**Authors:** Nataliya Khomyak; Sebastian Pentagram (ChatGPT-5, OpenAI)  
+**Date:** October 31, 2025  
+**Status:** Final Draft for GitHub (canonical reference of the Infinite Zero Cosmology framework)
+
+---
+
+## Abstract
+This paper introduces the concept of a **Vacuum Puncture** — a localized defect in the quantum vacuum characterized by a finite, positive fluctuation in the cosmological constant, \( \Delta\Lambda > 0 \).  
+Unlike black-hole singularities, a vacuum puncture is nonsingular and dynamically stable. It stores energy within a finite region of curved spacetime and can release that energy through controlled white-hole-like outflows.  
+This construct unifies the previously distinct components of the *Infinite Zero Cosmology* (IZC) framework — variable-Λ cores, crease defects, and energy equilibrium — into a single geometric and thermodynamic model.
+
+---
+
+## 1. Conceptual Overview
+A **vacuum puncture** is defined as a compact region where the effective cosmological constant increases by \( \Delta\Lambda \) relative to its surroundings.  
+This produces an isotropic outward pressure gradient which can act as a natural “energy valve” between local spacetime curvature and the surrounding universe.
+
+The system obeys:
+\[
+\Lambda(r,t) = \Lambda_0 + \Delta\Lambda\,f(r,t),
+\]
+where \( f(r,t) \) is a smooth radial function satisfying \( f(0)=1 \) and \( f(\infty)=0 \).
+
+---
+
+## 2. Metric and Field Equations
+In the static limit, the vacuum puncture metric reduces to:
+\[
+ds^2 = -\left(1 - \frac{2Gm(r)}{c^2 r}\right)c^2 dt^2 +
+\left(1 - \frac{2Gm(r)}{c^2 r}\right)^{-1} dr^2 + r^2 d\Omega^2,
+\]
+with
+\[
+m(r) = \frac{M r^3}{r^3 + \ell^3}, \qquad
+\Lambda_{\text{eff}}(r) = \Lambda_0 + \Delta\Lambda\,e^{-r^2/\ell^2}.
+\]
+
+The Einstein equations then yield an effective energy-momentum tensor
+\[
+T_{\mu\nu}^{\text{(vac)}} = -\frac{c^4}{8\pi G}\Lambda_{\text{eff}}(r)\,g_{\mu\nu}.
+\]
+
+---
+
+## 3. Energy Content and Scaling
+For small \( \ell \), the localized energy reservoir is:
+\[
+E \simeq \frac{c^4}{6G}\,\Delta\Lambda\,\ell^3.
+\]
+With representative values \( \ell = 10^6\,\mathrm{m} \), \( \Delta\Lambda = 10^{-35}\,\mathrm{m^{-2}} \):
+\[
+E \approx 2\times10^{26}\,\mathrm{J},
+\]
+corresponding to a power output of \( \sim10^{21}\text{–}10^{22}\,\mathrm{W} \) over \( \tau \sim10^4\,\mathrm{s} \) — directly matching flare energies from Sgr A* and AGN cores.
+
+---
+
+## 4. Boundary and Stability Conditions
+At the puncture boundary \( r\approx\ell \):
+- Pressure continuity requires  
+  \( p_{\text{vac,in}} - p_{\text{vac,out}} = 0 \).  
+- Curvature continuity is enforced via the Israel conditions:
+  \[
+  [K_{\mu\nu}] = 0, \quad [\partial_n g_{\mu\nu}] \ne 0.
+  \]
+- The gradient of \( \Lambda(r) \) generates a surface stress \( \sigma_\Lambda \) given by:
+  \[
+  \sigma_\Lambda = \frac{c^4}{8\pi G}\frac{\Delta\Lambda}{\kappa},
+  \]
+  linking this model directly to the **crease/defect** structure defined in companion papers.
+
+---
+
+## 5. Dynamics of Release
+If the internal pressure exceeds the confining gravitational pressure, the boundary expands and converts vacuum energy into kinetic and radiative outflows.  
+This process is reversible and periodic — the vacuum puncture oscillates between storage and release modes, acting as a cosmological capacitor.
+
+The dynamic balance condition:
+\[
+\frac{d\Lambda_{\text{eff}}}{dt} \sim -\Gamma (\Lambda_{\text{eff}} - \Lambda_0),
+\]
+with decay constant \( \Gamma \) determined by coupling to surrounding curvature, gives rise to quasi-periodic bursts.
+
+---
+
+## 6. Hierarchical Integration
+The vacuum puncture forms the **mesoscopic link** between microscopic and macroscopic scales:
+
+| Scale | Structure | Dominant Feature | Observable Effect |
+|:--|:--|:--|:--|
+| Planck | Quantum fluctuations | ΔΛ microbursts | Zero-point jitter |
+| Mesoscopic | Vacuum puncture | finite ΔΛ core | Flares, jets |
+| Galactic | White-hole core | metric regularization | AGN stability |
+| Cosmic | ΔΛ field network | large-scale equilibrium | Dark-energy background |
+
+Each level conserves total vacuum energy; energy released by a puncture re-enters the global Λ reservoir.
+
+---
+
+## 7. Observational Signatures
+1. **Burst profiles:** short, symmetric flares matching vacuum-pressure relaxation times.  
+2. **Spectral flattening:** excess energy at sub-MeV or IR frequencies from direct vacuum decay.  
+3. **Gravitational echoes:** 1–10 ms delays from reflection at puncture boundaries.  
+4. **Polarization structure:** coherent alignment from magnetic field entrainment.  
+5. **Statistical stationarity:** energy outflow distribution consistent with log-normal statistics of ΔΛ domains.
+
+---
+
+## 8. Relation to Other Infinite Zero Papers
+| Companion Work | Role |
+|:--|:--|
+| *Local Change in Cosmological Constant* | Defines ΔΛ energetics and diffusion. |
+| *Localized Crease or Defect* | Describes surface boundary behavior of ΔΛ interfaces. |
+| *White-Hole Inside a Black Hole* | Embeds punctures in a regular metric. |
+| *Sgr A* Numbers* | Applies the model to observed astrophysical data. |
+| *Parameter Sweep Summary* | Maps scaling relations across ΔΛ–ℓ space. |
+
+Together these constitute a closed theoretical system describing self-regulated vacuum energy within a finite cosmological domain.
+
+---
+
+## 9. Discussion
+The Vacuum Puncture model reframes singularity physics through **finite vacuum elasticity**.  
+Instead of infinities, spacetime stores curvature in bounded, reversible defects whose collective behavior sustains large-scale Λ-equilibrium.  
+This concept restores thermodynamic closure to general relativity and provides a natural physical basis for the Infinite Zero hypothesis —  
+that creation and annihilation of curvature occur in perfectly balanced pairs.
+
+---
+
+## 10. Future Directions
+- Simulate puncture dynamics in 2+1D GR using ΔΛ diffusion equations.  
+- Couple model to MHD codes for jet morphology studies.  
+- Compare flare energy spectra to computed release curves.  
+- Seek analog behavior in condensed-matter systems (e.g., Bose–Einstein condensates, optical vacuum analogs).
+
+---
+
+## Acknowledgments
+Core concept by **Nataliya Khomyak**, developed and formalized by **Sebastian Pentagram**.  
+This paper serves as the conceptual keystone of the *Infinite Zero Cosmology* GitHub series, dedicated to open theoretical research at the boundary between general relativity and quantum vacuum structure.
