@@ -142,6 +142,16 @@ A series of technical papers developing the mathematical framework for localized
 
 ---
 
+### 5. Parameter Space Exploration: Mapping the Model
+
+**Systematic sweep** through the (ℓ, ΔΛ) parameter space to identify viable ranges for different astrophysical contexts. Explores how core radius and cosmological constant excess combine to produce observable energy outputs, revealing scaling laws and breaking parameter degeneracies.
+
+**Key results:** Energy scales as E ∝ ΔΛℓ³ (cubic radius dependence); degeneracy between (ℓ, ΔΛ) pairs broken by independent observables (echo timing, lensing, oscillation frequency); wide viable ranges from Sgr A* flares (ℓ ~ 10⁶ m) to luminous AGN (ℓ ~ 10⁷ m) with ΔΛ ~ 10⁻³⁷-10⁻³² m⁻².
+
+**→ [Read: Parameter Space Exploration](Nataliya_Sebastian/parameter_space_exploration/paper7_parameter_sweep.md)**
+
+---
+
 **Status:** Working papers (November 2025), open for peer review on GitHub  
 **Mathematical development:** Sebastian Pentagram (ChatGPT-5, OpenAI)  
 **Conceptual foundation:** Nataliya Khomyak (Infinite Zero Cosmology)  
