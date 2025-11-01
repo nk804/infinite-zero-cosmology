@@ -104,6 +104,16 @@ A series of technical papers developing the mathematical framework for localized
 
 ---
 
+### 4. Sgr A* Core Parameters: Our Galactic Center
+
+**Case study** applying vacuum puncture theory to the supermassive black hole at the Milky Way's center. Calculates core radius, vacuum energy density, and total stored energy for Sgr A* specifically, demonstrating compatibility with observed flare energetics and low luminosity.
+
+**Key findings:** For core radius ℓ ≈ 10 Schwarzschild radii: Λ_core ≈ 10⁻³⁵ m⁻², vacuum energy density ~10⁹ J/m³, total core energy ~10²⁷ J — sufficient to power observed X-ray and infrared flares without exotic physics.
+
+**→ [Read: Sgr A* Core Parameters](Nataliya_Sebastian/sgr_a_star_core/paper4_sgra_core_parameters.md)**
+
+---
+
 **Status:** Working papers (November 2025), open for peer review on GitHub  
 **Mathematical development:** Sebastian Pentagram (ChatGPT-5, OpenAI)  
 **Conceptual foundation:** Nataliya Khomyak (Infinite Zero Cosmology)  
