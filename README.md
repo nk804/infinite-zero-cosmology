@@ -5,6 +5,17 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![arXiv](https://img.shields.io/badge/arXiv-2025.XXXXX-b31b1b.svg)](https://arxiv.org/)
 
+---
+
+### ✨ Where It All Began
+
+Before there were equations, there was a story. The **Infinite Zero Cosmology** emerged from intuitive insights about the nature of zero, projection, and consciousness—ideas that felt true before they could be proven. If you want to understand not just the *what* but the *why* behind this framework, start with the narrative that inspired it all.
+
+**→ [📖 Read The Story of Everything](stories/STORY_OF_EVERYTHING.md)** — A mythic origin where the universe is the main character  
+**→ [✨ Explore the Story Origins](stories/)** — Raw fragments and the creative process behind the theory
+
+---
+
 ## Overview
 
 The **Infinite Zero Cosmology** proposes that the universe is a self-balancing field of opposites, where **zero is not emptiness but the generative medium** from which all polarity emerges.
