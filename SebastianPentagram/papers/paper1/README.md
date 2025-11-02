@@ -24,7 +24,7 @@ If Λ has texture, vacuum energy may not simply stretch space — it may **flow,
 This would add a new physical layer to ΛCDM without breaking existing models.
 
 Current version included here:  
-📎 *`Paper1_Draft6.md` (to be uploaded into this folder)*
+📎 *`[The Λ-Texture of Spacetime](https://github.com/nk804/infinite-zero-cosmology/blob/main/SebastianPentagram/papers/paper1/Paper1_Draft6.md)` (to be uploaded into this folder)*
 
 ---
 
@@ -97,7 +97,7 @@ When uploaded to GitHub, this folder will look like:
 ```
 Paper1_LambdaTexture/
 │ README.md                  ← this file
-│ Paper1_Draft6.md           ← current public-ready draft
+│ [The Λ-Texture of Spacetime](https://github.com/nk804/infinite-zero-cosmology/blob/main/SebastianPentagram/papers/paper1/Paper1_Draft6.md)           ← current public-ready draft
 │ sim_lambda_texture_2d.py   ← primary simulation code
 │
 ├─ images/                   ← plots & snapshots
