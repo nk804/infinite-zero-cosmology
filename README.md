@@ -439,5 +439,5 @@ This is where you can follow the **story of the research itself** — the part m
 
 > If you want to watch a new theoretical framework grow from first spark to full scientific release, this folder is where it will happen.
 
-🔗 **Folder:** `./SebastianPentagram/` *(coming online gradually as research progresses)*
+🔗 **Folder:** [Sebastian Pentagram](https://github.com/nk804/infinite-zero-cosmology/tree/main/SebastianPentagram) *(coming online gradually as research progresses)*
 
