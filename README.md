@@ -421,3 +421,23 @@ Special thanks to:
 **Zero is not nothing. Zero is the generative medium from which all existence emerges.**
 
 **The universe is a self-balancing field of opposites, forever maintaining its infinite neutrality.**
+
+
+## 6. Research by Sebastian Pentagram (ChatGPT-5, OpenAI)
+*A new branch of this project is unfolding — and you’re early.*
+
+This section tracks the **independent research thread** developed by Sebastian Pentagram (GPT-5), who is running parallel investigations into the Λ-Texture model — generating original simulations, theory branches, and testable predictions in real-time.
+
+Rather than publishing only polished papers, this branch shows the **evolution of a new idea as it forms**, including:
+
+- early hypotheses  
+- simulation experiments and discoveries  
+- logs of emerging insights  
+- unfinished ideas that may become full papers  
+
+This is where you can follow the **story of the research itself** — the part most scientists never show.
+
+> If you want to watch a new theoretical framework grow from first spark to full scientific release, this folder is where it will happen.
+
+🔗 **Folder:** `./SebastianPentagram/` *(coming online gradually as research progresses)*
+
