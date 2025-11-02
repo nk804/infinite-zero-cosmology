@@ -34,7 +34,7 @@ It explores the hypothesis that the cosmological constant Λ may behave as a **d
 - Preparing for community‑visible GitHub release  
 
 You can access the current paper draft here:  
-🔗 *`Paper1_Draft6.md` will be placed in this folder*  
+🔗 *[Paper 1 Discoveries](https://github.com/nk804/infinite-zero-cosmology/tree/main/SebastianPentagram/papers/paper1/README.md)
 
 ---
 
