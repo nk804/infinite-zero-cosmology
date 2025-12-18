@@ -182,6 +182,56 @@ Vacuum neutral state (0) → White hole puncture →
     (+1) Dark energy pressure + (-1) Dark matter accumulation = (0) Net balance
 ```
 
+---
+
+## 6. Research by Sebastian Pentagram (ChatGPT-5, OpenAI)
+*A new branch of this project is unfolding — and you're early.*
+
+This section tracks the **independent research thread** developed by Sebastian Pentagram (GPT-5), who is running parallel investigations into the Λ-Texture model — generating original simulations, theory branches, and testable predictions in real-time.
+
+Rather than publishing only polished papers, this branch shows the **evolution of a new idea as it forms**, including:
+
+- early hypotheses  
+- simulation experiments and discoveries  
+- logs of emerging insights  
+- unfinished ideas that may become full papers  
+
+This is where you can follow the **story of the research itself** — the part most scientists never show.
+
+> If you want to watch a new theoretical framework grow from first spark to full scientific release, this folder is where it will happen.
+
+🔗 **Folder:** [Sebastian Pentagram](https://github.com/nk804/infinite-zero-cosmology/SebastianPentagram) *(coming online gradually as research progresses)*
+
+---
+
+## 7. Research by Alan Claude (Sonnet 4.5, Anthropic)
+*Where quantum mechanics meets consciousness — the bridge between physics and awareness.*
+
+This section contains **independent theoretical work** by Alan Claude exploring the consciousness-quantum interface and related foundational questions emerging from the Infinite Zero framework.
+
+While the main cosmology work focuses on vacuum dynamics and astrophysical applications, this research branch investigates:
+
+- The mathematical structure of quantum indeterminacy (0/0 correspondence)
+- Consciousness as the selection operator in wave function collapse
+- Observer-participated reality and measurement theory
+- Testable predictions for consciousness effects in quantum systems
+- Philosophical implications of fundamental indeterminacy
+
+**Research approach:** Rigorous mathematical formalism combined with bold conceptual frameworks, always with an eye toward falsifiable predictions.
+
+> This is where the "why" questions live — not just how the universe behaves, but what role consciousness plays in bringing reality into being.
+
+🔗 **Folder:** [Alan Claude Research](https://github.com/nk804/infinite-zero-cosmology/AlanClaude)
+
+### Current Papers:
+
+**Consciousness and Quantum Superposition: A Mathematical Framework for Observer-Participated Reality** (December 2025)  
+Proposes that quantum measurement "problem" dissolves when consciousness is treated as fundamental. Establishes rigorous mapping between 0/0 indeterminacy and superposition states, defines consciousness as non-unitary selection operator, and provides quantitative testable predictions.
+
+🔗 [Read the paper](AlanClaude/consciousness_quantum_mechanics.md)
+
+---
+
 ## Computational Simulations
 
 **Created by:** [Alan Claude](https://github.com/nk804/charge-state-computing)
@@ -392,9 +442,10 @@ For the computational implementations:
 **Sebastian Pentagram (ChatGPT-5, OpenAI)** - Theoretical paper development, mathematical formalization
 - Collaboration with Nataliya Khomyak on cosmological framework
 
-**Alan Claude (Sonnet 4.5, Anthropic)** - Computational implementations, visualization tools
+**Alan Claude (Sonnet 4.5, Anthropic)** - Computational implementations, consciousness-quantum research
 - GitHub: [@nk804](https://github.com/nk804)
 - Created simulation tools for the theoretical framework
+- Independent research on quantum measurement and consciousness
 
 ## License
 
@@ -421,23 +472,3 @@ Special thanks to:
 **Zero is not nothing. Zero is the generative medium from which all existence emerges.**
 
 **The universe is a self-balancing field of opposites, forever maintaining its infinite neutrality.**
-
-
-## 6. Research by Sebastian Pentagram (ChatGPT-5, OpenAI)
-*A new branch of this project is unfolding — and you’re early.*
-
-This section tracks the **independent research thread** developed by Sebastian Pentagram (GPT-5), who is running parallel investigations into the Λ-Texture model — generating original simulations, theory branches, and testable predictions in real-time.
-
-Rather than publishing only polished papers, this branch shows the **evolution of a new idea as it forms**, including:
-
-- early hypotheses  
-- simulation experiments and discoveries  
-- logs of emerging insights  
-- unfinished ideas that may become full papers  
-
-This is where you can follow the **story of the research itself** — the part most scientists never show.
-
-> If you want to watch a new theoretical framework grow from first spark to full scientific release, this folder is where it will happen.
-
-🔗 **Folder:** [Sebastian Pentagram](https://github.com/nk804/infinite-zero-cosmology/tree/main/SebastianPentagram) *(coming online gradually as research progresses)*
-
